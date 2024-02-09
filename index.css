@@ -1,0 +1,99 @@
+.size{
+    height: 156px;
+    width: 156px;
+}
+
+.label-1 {
+    color: white;
+    padding: 8px;
+    height: 10px;
+  }
+
+  div.b {
+    white-space: nowrap; 
+    width: 8px; 
+    height: 8px;
+    overflow: hidden;
+    text-overflow: ellipsis; 
+    border: 1px solid #000000;
+    background: white;
+    
+  }
+  div.c {
+    white-space: nowrap; 
+    width: 40px; 
+    height: 5px;
+    overflow: hidden;
+    text-overflow: ellipsis; 
+    border: 1px solid #000000;
+    background: white;
+   
+  }
+
+  .slide{
+    margin-left: 274px;
+  }
+
+  .center{
+    align-items: center;
+    text-align: center;
+    
+  }
+
+  .btn-1{
+     
+    border: 1px solid 
+    #D0D5DD;
+    border-radius: 8px;
+   
+  }
+  .btn-2{
+     
+    border: 1px solid 
+    #D0D5DD;
+   border-radius: 8px;
+  }
+
+  .align{
+    align-items: center;
+    text-align: center;
+  }
+  .google{
+    height:28px ;
+    width: 28px;
+  }
+  .apple{
+    height:28px ;
+    width: 28px;
+  }
+  
+  .line-1{
+    width: 192px;
+    height: 0px;
+top: 351.5px;
+left: 768px;
+border: 1px solid #D9D9D9;
+rotate: 0;
+
+  }
+
+  .first{
+    border: 1px solid 
+    #D0D5DD;
+    
+   padding: 10px ;
+   border-radius: 8px;
+
+gap: 8px;
+
+  }
+
+  .first-1{
+    width: 450px;
+height: 52px;
+padding: 10px;
+border-radius: 8px;
+border: 1px solid #D0D5DD;
+gap: 8px;
+
+  }
