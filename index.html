@@ -5,24 +5,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
     <title>Document</title>
+    <style>
+        .input-container {
+          position: relative;
+          
+        }
+    
+        .input-container input[type="text"] {
+          padding-left: 30px; 
+        }
+    
+        .input-container .fa-regular {
+          position: absolute;
+          left: 7px;
+          top: 50%;
+          transform: translateY(-50%);
+          color: #888;
+          
+        }
+      </style>
+   
 </head>
 <body>
-    <main class="grid grid-cols-1 md:grid-cols-2 p-4 gap-10">
+    <main class="grid grid-cols-1 md:grid-cols-2 p-4 gap-20">
        <section class="bg-[#1B434D] ">
        <div class="p-4">
-        <div class="flex ml-20">
+        <div class="flex ml-10">
             <img class="size mt-5" src="./image1.png" alt="">
              
         </div>
-        <div class="ml-40">
+        <div class="ml-20">
            <img class="image-2"  src="./image.png" alt="">
-           <h1 class="font-bold ml-20 text-2xl">Easy to Build Your </h1>
-           <p class="mt-5">Overpay help you set saving goals, earn cash back offers, Go to <br> disclaimer for more details and get paychecks up to two days early. <br> Get a $20 bonus when you receive qualifying direct deposits</p>
+           <h1 class="font-bold ml-20 text-2xl text-white">Easy to Build Your </h1>
+           <p class="mt-5 text-white">Overpay help you set saving goals, earn cash back offers, Go to <br> disclaimer for more details and get paychecks up to two days early. <br> Get a $20 bonus when you receive qualifying direct deposits</p>
 
            <p></p>
         </div>
-        <div class="text-center slide flex gap-5 mt-10 text-center mb-2">
+        <div class="text-center align slide flex gap-2 mt-10 text-center mb-2">
            
             <div class="b"></div>
            
@@ -33,30 +54,34 @@
        </div>
        </section>
        <section>
-        <div class="center">
+        <div class="text-center mr-5">
             <h1 class="font-bold text-2xl">Sign up for an account</h1>
              <p class="mt-2">Send, spend and save smarter</p>
         </div>
-         <div class="align text-center grid grid-cols-1 md:grid-cols-2 gap-5 mt-6">
+         <div class=" text-center flex gap-1 mt-6">
        
-            <button  class="btn-1 p-2 flex text-center max-auto gap-2 align">
-              <img class=" google " src="./Google.png" alt="">
-                Sing Up with google</button>
-        
-            <button class="btn-2 flex text-center gap-2 p-2 ">
+           <div>
+            <button  class="btn-1 p-1 flex text-center gap-1    ">
+                <img class=" google " src="./Google.png" alt="">
+                  Sing Up with google</button>
+           </div>
+        <div>
+            
+            <button class="btn-2 flex text-center ml-5 gap-1  p-2 ">
                 <img class="apple" src="./Apple.png" alt="">
                 Sing Up with Facebook</button>
-        
+        </div>
+            
          </div>
 
-         <div class="flex mt-6 align gap-6 ml-16">
+         <div class="flex mt-6  gap-6 ">
             <h1 class="line-1"></h1>
             <h1 >or with e-mail</h1>
             <h1 class="line-1 "></h1>
          </div>
 
          <div>
-            <form class="ml-10 mt-8 align gap-6 "  action="">
+            <form class="ml-10 mt-6  gap-6 "  action="">
                 
                     <input class="first mt-4" type="text" value="" placeholder="First Name">
                 
@@ -65,25 +90,40 @@
                
             </form>
 
-            <div class="ml-10 mt-6 align">
-                <div>
-                    <input class="first-1 gap-2" type="text" value="" placeholder="user name">
+            <div class="ml-12 mt-6 ">
+                <div class="input-container ">
+                    <!-- <i class="fa-regular fa-envelope"></i>   -->
+                    <i class="fa-regular fa-user"></i>
+                    <input class="first-1 gap-2" type="text" value="name"  placeholder= " user Name">
                 </div>
-                <div>
-                    <input class="first-1 mt-5" type="email" value="" placeholder="oliva@gmail.com">
+                <div class=" input-container">
+                    <i class="fa-regular fa-envelope mt-3"></i>
+                    <input class="first-1 mt-5 gap-2 p-4" type="email" value="" placeholder="   oliva@gmail.com">
                 </div>
-                <div>
-                    <input class="first-1 mt-5" type="password" value="" placeholder="password">
+                <div class="input-container ">
+                    <!-- <i class="fa-regular fa-envelope"></i>   -->
+                    <i class="fa-regular fa-lock mt-3"></i>
+                    <input class="first-1 gap-2 mt-5 ml-1 p-4" type="password" value="name"  placeholder="user password">
+                    
                 </div>
             </div>
         </div>
 
-        <div class="align mt-4 ">
-            <p class="mb-4 ">By creating an account, you agreeing to our Privacy Policy, and Electronics Communication Policy.</p>
+        <div class="mt-4 ">
+            <p class="mb-4 ml-10">By creating an account, you agreeing to our Privacy Policy, and Electronics Communication Policy.</p>
 
             <div>
-                <button class="text-xl font-bold bg-[#1B434D] sing-up">Sing-Up</button>
+                <button class="text-xl ml-10 font-bold bg-[#1B434D] sing-up text-white">Sing-Up</button>
             </div>
+        </div>
+
+        <div class="footer-1 flex mt-40">
+            
+                <h1>Privacy Policy</h1>
+            
+           
+                <h1 class="footer">2023 © Lucas Marques </h1>
+           
         </div>
        </section>
        <section>

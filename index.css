@@ -31,7 +31,7 @@
   }
 
   .slide{
-    margin-left: 274px;
+    margin-left: 220px;
   }
 
   .center{
@@ -41,14 +41,18 @@
   }
 
   .btn-1{
-     
+    width: 250px; 
+    height: 50px;
     border: 1px solid 
     #D0D5DD;
     border-radius: 8px;
+    align-items: center;
+    text-align: center;
    
   }
   .btn-2{
-     
+    width: 250px; 
+    height: 45px;
     border: 1px solid 
     #D0D5DD;
    border-radius: 8px;
@@ -59,12 +63,12 @@
     text-align: center;
   }
   .google{
-    height:28px ;
-    width: 28px;
+    height:24px ;
+    width: 24px;
   }
   .apple{
-    height:28px ;
-    width: 28px;
+    height:24px ;
+    width: 24px;
   }
   
   .line-1{
@@ -101,11 +105,22 @@ gap: 8px;
   }
 
   .sing-up{
-    width:510px;
-height:60px;
-padding: 16px, ;
-border-radius: 8px;
-border: 1px;
-gap: 8px;
+    width:450px;
+     height:52px;
+     padding: 10px, ;
+    border-radius: 8px;
+    border: 1px;
+     gap: 8px;
 
   }
+
+ 
+
+ 
+    .footer-1 {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      top: 975px;
+  }
+  
